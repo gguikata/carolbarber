@@ -1,0 +1,54 @@
+.main {
+    background-color: #292929;
+}
+
+.capa {
+    width: 100%;
+}
+
+h2 {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.sobre {
+    height: 500px;
+    display: flex;
+    padding: 0 100px;
+    
+}
+
+.quem-sou {
+    background-image:url(../../assets/img/pngwing\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 325px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    background-color: #120E0E;
+}
+
+p {
+    padding: 0 50px;
+}
+
+.foto-carol {
+    width: 500px;
+    height: 500px;
+
+}
+
+.swiper {
+    text-align-last: center;
+    margin: 0 150px;
+}
+
+.carousel-img {
+    width: 300px;
+    height: 400px;
+}
+
