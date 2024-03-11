@@ -3,20 +3,27 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 40px
 }
 
 .logo-img {
     width: 120px;
 }
 
-.whats {
-padding-right: 20px;
-width: 60px;
+a:link,
+a:visited {
+    text-decoration: none
 }
 
-.insta {
-    padding-left:20px ;
-    width: 60px;
+h1:hover {
+    color: #AE7445;
+}
+
+a:active {
+    text-decoration: none
 }
