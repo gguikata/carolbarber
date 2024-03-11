@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Adam Script';
+    src: local('RTL Adam Script Regular'), local('RTL-Adam-Script-Regular'),
+        url('RTL-AdamScript-Regular.woff2') format('woff2'),
+        url('RTL-AdamScript-Regular.woff') format('woff'),
+        url('RTL-AdamScript-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .main {
     background-color: #292929;
 }
@@ -10,6 +20,7 @@ h2 {
     padding: 80px 0;
     text-align: center;
     color: white;
+    font-family: Adam Script;
 }
 
 .sobre {
