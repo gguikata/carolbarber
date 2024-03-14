@@ -25,12 +25,48 @@ h1 {
     width: 40px;
 }
 
-a:link, a:visited {
-	text-decoration: none
-	}
+a:link,
+a:visited {
+    text-decoration: none
+}
+
 h1:hover {
     color: #AE7445;
-	}
+}
+
 a:active {
-	text-decoration: none
-	}
+    text-decoration: none
+}
+
+@media(max-width:600px) {
+    .menu-content {
+        display: none;
+    }
+
+    .contato,
+    .menu-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header{
+        height: 55px;
+    }
+}
+
+.logo-header {
+    width: 43px;
+    height: 43px;
+}
+
+
+@media(min-width:600px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.hamburger {
+    border: none;
+    background: transparent;
+}

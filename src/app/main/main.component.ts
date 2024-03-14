@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, HostListener } from '@angular/core';
 
 
 
@@ -11,5 +11,15 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class MainComponent {
-
+  slidesPerView: number = 3;
+  screenWidth!: number;
 }
+
+// @HostListener('window:resize')
+// getScreenWidth(){
+//   this.screenWidth = window.innerWidth;
+//   if(this.screenWidth >= 250 && this.screenWidth <= 600){
+//     this.slidesPerView = 1;
+//   }
+// }
+

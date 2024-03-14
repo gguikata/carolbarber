@@ -27,3 +27,20 @@ h1:hover {
 a:active {
     text-decoration: none
 }
+
+
+// MOBILE VERSION
+
+@media(max-width:600px) {
+    .logo-img {
+        width: 40px;
+    }
+
+    p {
+        font-size: 20px
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+}

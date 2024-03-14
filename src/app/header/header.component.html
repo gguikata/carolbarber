@@ -2,10 +2,10 @@
     <a href="#header">
         <img class="logo-header" src="../../assets/img/Logo transparente Carol.png" alt="Logo">
     </a>
-    <a href="#sobre">
+    <a class="menu-content" href="#sobre">
         <h1>SOBRE</h1>
     </a>
-    <a href="#servicos">
+    <a class="menu-content" href="#servicos">
         <h1>SERVIÇOS</h1>
     </a>
     <a href="https://wa.me/+5512991031688">
@@ -14,4 +14,13 @@
     <a href="https://www.instagram.com/carol_barbeira/">
         <img class="contato" src="../../assets/img/insta branco 3.png" alt="Instagram">
     </a>
+    <button class="hamburger" mat-button [matMenuTriggerFor]="menu"><img menu-icon src="../../assets/img/icons8-cardápio-24.png"
+            alt="icon"></button>
+    <mat-menu #menu="matMenu">
+        <a class="content" href="#sobre" mat-menu-item>SOBRE</a>
+        <a class="content" href="#servicos" mat-menu-item>SERVIÇOS</a>
+    </mat-menu>
 </div>
+
+
+<!-- MOBILE VERSION -->
